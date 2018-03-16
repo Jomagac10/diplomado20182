@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD32846F205BB6F300FBC91F /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD32846E205BB6F300FBC91F /* ConversionViewController.swift */; };
 		DD4D2E0120494D240051788F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D2E0020494D240051788F /* AppDelegate.swift */; };
-		DD4D2E0320494D240051788F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D2E0220494D240051788F /* ViewController.swift */; };
 		DD4D2E0620494D250051788F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4D2E0420494D250051788F /* Main.storyboard */; };
 		DD4D2E0820494D250051788F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4D2E0720494D250051788F /* Assets.xcassets */; };
 		DD4D2E0B20494D250051788F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4D2E0920494D250051788F /* LaunchScreen.storyboard */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD32846E205BB6F300FBC91F /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		DD4D2DFD20494D240051788F /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4D2E0020494D240051788F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD4D2E0220494D240051788F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD4D2E0520494D250051788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD4D2E0720494D250051788F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD4D2E0A20494D250051788F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,6 +77,7 @@
 		DD4D2DF420494D240051788F = {
 			isa = PBXGroup;
 			children = (
+				DD32846E205BB6F300FBC91F /* ConversionViewController.swift */,
 				DD4D2DFF20494D240051788F /* WorldTrotter */,
 				DD4D2E1420494D250051788F /* WorldTrotterTests */,
 				DD4D2E1F20494D250051788F /* WorldTrotterUITests */,
@@ -98,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				DD4D2E0020494D240051788F /* AppDelegate.swift */,
-				DD4D2E0220494D240051788F /* ViewController.swift */,
 				DD4D2E0420494D250051788F /* Main.storyboard */,
 				DD4D2E0720494D250051788F /* Assets.xcassets */,
 				DD4D2E0920494D250051788F /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4D2E0320494D240051788F /* ViewController.swift in Sources */,
+				DD32846F205BB6F300FBC91F /* ConversionViewController.swift in Sources */,
 				DD4D2E0120494D240051788F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28GWAF24BT;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoseManuelProjectWorlTrotter.WorldTrotter;
@@ -441,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28GWAF24BT;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JoseManuelProjectWorlTrotter.WorldTrotter;
