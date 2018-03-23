@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDF3AA7D2064F555008EC57E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3AA7C2064F555008EC57E /* AppDelegate.swift */; };
+		DDF3AA7F2064F555008EC57E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3AA7E2064F555008EC57E /* FirstViewController.swift */; };
+		DDF3AA812064F555008EC57E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3AA802064F555008EC57E /* SecondViewController.swift */; };
+		DDF3AA842064F555008EC57E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF3AA822064F555008EC57E /* Main.storyboard */; };
+		DDF3AA862064F555008EC57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF3AA852064F555008EC57E /* Assets.xcassets */; };
+		DDF3AA892064F555008EC57E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF3AA872064F555008EC57E /* LaunchScreen.storyboard */; };
+		DDF3AA942064F555008EC57E /* ARCaloryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3AA932064F555008EC57E /* ARCaloryTests.swift */; };
+		DDF3AA9F2064F555008EC57E /* ARCaloryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3AA9E2064F555008EC57E /* ARCaloryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDF3AA902064F555008EC57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF3AA712064F555008EC57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF3AA782064F555008EC57E;
+			remoteInfo = ARCalory;
+		};
+		DDF3AA9B2064F555008EC57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF3AA712064F555008EC57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF3AA782064F555008EC57E;
+			remoteInfo = ARCalory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDF3AA792064F555008EC57E /* ARCalory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCalory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF3AA7C2064F555008EC57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDF3AA7E2064F555008EC57E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DDF3AA802064F555008EC57E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DDF3AA832064F555008EC57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDF3AA852064F555008EC57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF3AA882064F555008EC57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDF3AA8A2064F555008EC57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF3AA8F2064F555008EC57E /* ARCaloryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCaloryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF3AA932064F555008EC57E /* ARCaloryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCaloryTests.swift; sourceTree = "<group>"; };
+		DDF3AA952064F555008EC57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF3AA9A2064F555008EC57E /* ARCaloryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCaloryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF3AA9E2064F555008EC57E /* ARCaloryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCaloryUITests.swift; sourceTree = "<group>"; };
+		DDF3AAA02064F555008EC57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF3AA762064F555008EC57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3AA8C2064F555008EC57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3AA972064F555008EC57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDF3AA702064F555008EC57E = {
+			isa = PBXGroup;
+			children = (
+				DDF3AA7B2064F555008EC57E /* ARCalory */,
+				DDF3AA922064F555008EC57E /* ARCaloryTests */,
+				DDF3AA9D2064F555008EC57E /* ARCaloryUITests */,
+				DDF3AA7A2064F555008EC57E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF3AA7A2064F555008EC57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF3AA792064F555008EC57E /* ARCalory.app */,
+				DDF3AA8F2064F555008EC57E /* ARCaloryTests.xctest */,
+				DDF3AA9A2064F555008EC57E /* ARCaloryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF3AA7B2064F555008EC57E /* ARCalory */ = {
+			isa = PBXGroup;
+			children = (
+				DDF3AA7C2064F555008EC57E /* AppDelegate.swift */,
+				DDF3AA7E2064F555008EC57E /* FirstViewController.swift */,
+				DDF3AA802064F555008EC57E /* SecondViewController.swift */,
+				DDF3AA822064F555008EC57E /* Main.storyboard */,
+				DDF3AA852064F555008EC57E /* Assets.xcassets */,
+				DDF3AA872064F555008EC57E /* LaunchScreen.storyboard */,
+				DDF3AA8A2064F555008EC57E /* Info.plist */,
+			);
+			path = ARCalory;
+			sourceTree = "<group>";
+		};
+		DDF3AA922064F555008EC57E /* ARCaloryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF3AA932064F555008EC57E /* ARCaloryTests.swift */,
+				DDF3AA952064F555008EC57E /* Info.plist */,
+			);
+			path = ARCaloryTests;
+			sourceTree = "<group>";
+		};
+		DDF3AA9D2064F555008EC57E /* ARCaloryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF3AA9E2064F555008EC57E /* ARCaloryUITests.swift */,
+				DDF3AAA02064F555008EC57E /* Info.plist */,
+			);
+			path = ARCaloryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF3AA782064F555008EC57E /* ARCalory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF3AAA32064F555008EC57E /* Build configuration list for PBXNativeTarget "ARCalory" */;
+			buildPhases = (
+				DDF3AA752064F555008EC57E /* Sources */,
+				DDF3AA762064F555008EC57E /* Frameworks */,
+				DDF3AA772064F555008EC57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCalory;
+			productName = ARCalory;
+			productReference = DDF3AA792064F555008EC57E /* ARCalory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDF3AA8E2064F555008EC57E /* ARCaloryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF3AAA62064F555008EC57E /* Build configuration list for PBXNativeTarget "ARCaloryTests" */;
+			buildPhases = (
+				DDF3AA8B2064F555008EC57E /* Sources */,
+				DDF3AA8C2064F555008EC57E /* Frameworks */,
+				DDF3AA8D2064F555008EC57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF3AA912064F555008EC57E /* PBXTargetDependency */,
+			);
+			name = ARCaloryTests;
+			productName = ARCaloryTests;
+			productReference = DDF3AA8F2064F555008EC57E /* ARCaloryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDF3AA992064F555008EC57E /* ARCaloryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF3AAA92064F555008EC57E /* Build configuration list for PBXNativeTarget "ARCaloryUITests" */;
+			buildPhases = (
+				DDF3AA962064F555008EC57E /* Sources */,
+				DDF3AA972064F555008EC57E /* Frameworks */,
+				DDF3AA982064F555008EC57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF3AA9C2064F555008EC57E /* PBXTargetDependency */,
+			);
+			name = ARCaloryUITests;
+			productName = ARCaloryUITests;
+			productReference = DDF3AA9A2064F555008EC57E /* ARCaloryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF3AA712064F555008EC57E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jose Manuel García Chávez";
+				TargetAttributes = {
+					DDF3AA782064F555008EC57E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DDF3AA8E2064F555008EC57E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDF3AA782064F555008EC57E;
+					};
+					DDF3AA992064F555008EC57E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDF3AA782064F555008EC57E;
+					};
+				};
+			};
+			buildConfigurationList = DDF3AA742064F555008EC57E /* Build configuration list for PBXProject "ARCalory" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF3AA702064F555008EC57E;
+			productRefGroup = DDF3AA7A2064F555008EC57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF3AA782064F555008EC57E /* ARCalory */,
+				DDF3AA8E2064F555008EC57E /* ARCaloryTests */,
+				DDF3AA992064F555008EC57E /* ARCaloryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF3AA772064F555008EC57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF3AA892064F555008EC57E /* LaunchScreen.storyboard in Resources */,
+				DDF3AA862064F555008EC57E /* Assets.xcassets in Resources */,
+				DDF3AA842064F555008EC57E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3AA8D2064F555008EC57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3AA982064F555008EC57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF3AA752064F555008EC57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF3AA812064F555008EC57E /* SecondViewController.swift in Sources */,
+				DDF3AA7D2064F555008EC57E /* AppDelegate.swift in Sources */,
+				DDF3AA7F2064F555008EC57E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3AA8B2064F555008EC57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF3AA942064F555008EC57E /* ARCaloryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3AA962064F555008EC57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF3AA9F2064F555008EC57E /* ARCaloryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDF3AA912064F555008EC57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF3AA782064F555008EC57E /* ARCalory */;
+			targetProxy = DDF3AA902064F555008EC57E /* PBXContainerItemProxy */;
+		};
+		DDF3AA9C2064F555008EC57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF3AA782064F555008EC57E /* ARCalory */;
+			targetProxy = DDF3AA9B2064F555008EC57E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDF3AA822064F555008EC57E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF3AA832064F555008EC57E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF3AA872064F555008EC57E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF3AA882064F555008EC57E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF3AAA12064F555008EC57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDF3AAA22064F555008EC57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF3AAA42064F555008EC57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28GWAF24BT;
+				INFOPLIST_FILE = ARCalory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoseManuelProject.ARCalory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDF3AAA52064F555008EC57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28GWAF24BT;
+				INFOPLIST_FILE = ARCalory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoseManuelProject.ARCalory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDF3AAA72064F555008EC57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28GWAF24BT;
+				INFOPLIST_FILE = ARCaloryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoseManuelProject.ARCaloryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCalory.app/ARCalory";
+			};
+			name = Debug;
+		};
+		DDF3AAA82064F555008EC57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28GWAF24BT;
+				INFOPLIST_FILE = ARCaloryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoseManuelProject.ARCaloryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCalory.app/ARCalory";
+			};
+			name = Release;
+		};
+		DDF3AAAA2064F555008EC57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28GWAF24BT;
+				INFOPLIST_FILE = ARCaloryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoseManuelProject.ARCaloryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARCalory;
+			};
+			name = Debug;
+		};
+		DDF3AAAB2064F555008EC57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28GWAF24BT;
+				INFOPLIST_FILE = ARCaloryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoseManuelProject.ARCaloryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARCalory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF3AA742064F555008EC57E /* Build configuration list for PBXProject "ARCalory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF3AAA12064F555008EC57E /* Debug */,
+				DDF3AAA22064F555008EC57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF3AAA32064F555008EC57E /* Build configuration list for PBXNativeTarget "ARCalory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF3AAA42064F555008EC57E /* Debug */,
+				DDF3AAA52064F555008EC57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF3AAA62064F555008EC57E /* Build configuration list for PBXNativeTarget "ARCaloryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF3AAA72064F555008EC57E /* Debug */,
+				DDF3AAA82064F555008EC57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF3AAA92064F555008EC57E /* Build configuration list for PBXNativeTarget "ARCaloryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF3AAAA2064F555008EC57E /* Debug */,
+				DDF3AAAB2064F555008EC57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDF3AA712064F555008EC57E /* Project object */;
+}
