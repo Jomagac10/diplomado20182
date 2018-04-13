@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqS-9p-ciq">
+                                <rect key="frame" x="15" y="35" width="345" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00ºC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ol-bp-E7q">
+                                <rect key="frame" x="15" y="71" width="345" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="58"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yqS-9p-ciq" secondAttribute="trailing" constant="15" id="26A-K4-iig"/>
+                            <constraint firstItem="4Ol-bp-E7q" firstAttribute="top" secondItem="yqS-9p-ciq" secondAttribute="bottom" constant="15" id="CyH-aU-qAL"/>
+                            <constraint firstItem="yqS-9p-ciq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KJJ-bM-ss9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Ol-bp-E7q" secondAttribute="trailing" constant="15" id="Ov4-JM-npW"/>
+                            <constraint firstItem="yqS-9p-ciq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QI7-Dp-OOd"/>
+                            <constraint firstItem="yqS-9p-ciq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="TqR-g7-A7z"/>
+                            <constraint firstItem="yqS-9p-ciq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="exA-1a-2gV"/>
+                            <constraint firstItem="4Ol-bp-E7q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rmh-vS-Cv0"/>
+                            <constraint firstItem="4Ol-bp-E7q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="upW-g0-clE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="LocationText" destination="yqS-9p-ciq" id="xzV-Gn-y2p"/>
+                        <outlet property="TemperatureText" destination="4Ol-bp-E7q" id="qwI-41-xQz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
