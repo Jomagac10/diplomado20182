@@ -16,7 +16,7 @@ class StoreCollectionViewController: UICollectionViewController,UICollectionView
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        Category.SaveService()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -25,7 +25,7 @@ class StoreCollectionViewController: UICollectionViewController,UICollectionView
         collectionView?.backgroundColor = .white
         
         albumCategories = Category.samples()
-        Category.SaveService()
+        
 
         // Do any additional setup after loading the view.
     }

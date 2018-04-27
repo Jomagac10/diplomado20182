@@ -47,11 +47,11 @@ class Category : NSObject{
     
     
     static func SaveService(){
-        var components = URL(string: "http://itunes.apple.com/WebObjects/MZStoreServices.woa/ws/genres")
+        let components = URL(string: "http://itunes.apple.com/WebObjects/MZStoreServices.woa/ws/genres")
         
         var req = URLRequest(url: components!)
         req.httpMethod = "GET"
-       // req.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        req.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
         let session = URLSession.shared
         let task = session.dataTask(with: req, completionHandler: {(data, response, error) in
@@ -68,9 +68,17 @@ class Category : NSObject{
             
             
         if resp.statusCode == 200 {
-            print (unwrappedData)
-            /*do {
-               // let parsedJson = try JSONDecoder().decode(User.self, from: unwrappedData)
+            print("succesful request")
+           /* do {
+               let json = try JSONSerialization.jsonObject(with: unwrappedData, options: []) as? [String: Any]
+                if let main = json!["31"] as! [String: String]? {
+                    if let _31 = json!["subgenres"] as! [String: String]? {
+                        if let subgenre = json!["1602"] as! [String: String]? {
+                            //self.temperatureLabel.text = "\(main["temp"] as! NSNumber) ºC"
+                            print("Subgenre: \(main[_31[subgenre["name"]!]!] as! String)")
+                        }
+                    }
+                }
                 //completion(parsedJson)
             } catch let err {
                 print("Unable to parse JSON: \(err)")
