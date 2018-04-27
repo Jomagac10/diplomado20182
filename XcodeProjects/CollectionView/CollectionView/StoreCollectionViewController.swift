@@ -25,6 +25,7 @@ class StoreCollectionViewController: UICollectionViewController,UICollectionView
         collectionView?.backgroundColor = .white
         
         albumCategories = Category.samples()
+        Category.SaveService()
 
         // Do any additional setup after loading the view.
     }

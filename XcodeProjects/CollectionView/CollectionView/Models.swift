@@ -44,7 +44,46 @@ class Category : NSObject{
         
         return [bestNewAlbums, bestClassicAlbums]
     }
+    
+    
+    static func SaveService(){
+        var components = URL(string: "http://itunes.apple.com/WebObjects/MZStoreServices.woa/ws/genres")
+        
+        var req = URLRequest(url: components!)
+        req.httpMethod = "GET"
+       // req.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        
+        let session = URLSession.shared
+        let task = session.dataTask(with: req, completionHandler: {(data, response, error) in
+            guard error == nil else {
+            print("ERROR: \(error!)")
+            return
+            }
+        guard let unwrappedData = data else {
+            print("Empty response")
+            return
+        }
+        
+        let resp = response as! HTTPURLResponse
+            
+            
+        if resp.statusCode == 200 {
+            print (unwrappedData)
+            /*do {
+               // let parsedJson = try JSONDecoder().decode(User.self, from: unwrappedData)
+                //completion(parsedJson)
+            } catch let err {
+                print("Unable to parse JSON: \(err)")
+            }*/
+        } else {
+            print("Unsuccesful request: \(resp)")
+        }})
+        task.resume()
+    }
 }
+
+
+
 
 
 class Album: NSObject{
