@@ -1,0 +1,6 @@
+framework module Pods_DiplomadoCollectionView {
+  umbrella header "Pods-DiplomadoCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}

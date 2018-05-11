@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67B41D2029AEFF15F2CBA6B6 /* Pods_DiplomadoCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C3414584E9E35087775627 /* Pods_DiplomadoCollectionView.framework */; };
+		C1B341562093A45D00319441 /* Tracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B341552093A45D00319441 /* Tracks.swift */; };
+		C1B933B4208B84AE0012DEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B933B3208B84AE0012DEF5 /* AppDelegate.swift */; };
+		C1B933B6208B84AE0012DEF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B933B5208B84AE0012DEF5 /* ViewController.swift */; };
+		C1B933B9208B84AE0012DEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B933B7208B84AE0012DEF5 /* Main.storyboard */; };
+		C1B933BB208B84AF0012DEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B933BA208B84AF0012DEF5 /* Assets.xcassets */; };
+		C1B933BE208B84AF0012DEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B933BC208B84AF0012DEF5 /* LaunchScreen.storyboard */; };
+		C1B933C6208B8C2F0012DEF5 /* TestCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B933C5208B8C2F0012DEF5 /* TestCollectionViewController.swift */; };
+		C1B933C8208B91B40012DEF5 /* StoreCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B933C7208B91B40012DEF5 /* StoreCollectionViewController.swift */; };
+		C1B933CA208B96310012DEF5 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B933C9208B96310012DEF5 /* CategoryCell.swift */; };
+		C1B933CC208B975F0012DEF5 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B933CB208B975F0012DEF5 /* AlbumCell.swift */; };
+		C1B933CE208BB79E0012DEF5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B933CD208BB79E0012DEF5 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C3414584E9E35087775627 /* Pods_DiplomadoCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiplomadoCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E30ACF4F29BA8931E5B8760 /* Pods-DiplomadoCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomadoCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiplomadoCollectionView/Pods-DiplomadoCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		7F5A19E767A9BD0B50F4BFD9 /* Pods-DiplomadoCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiplomadoCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiplomadoCollectionView/Pods-DiplomadoCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B341552093A45D00319441 /* Tracks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracks.swift; sourceTree = "<group>"; };
+		C1B933B0208B84AE0012DEF5 /* DiplomadoCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiplomadoCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B933B3208B84AE0012DEF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1B933B5208B84AE0012DEF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1B933B8208B84AE0012DEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1B933BA208B84AF0012DEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1B933BD208B84AF0012DEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1B933BF208B84AF0012DEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B933C5208B8C2F0012DEF5 /* TestCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewController.swift; sourceTree = "<group>"; };
+		C1B933C7208B91B40012DEF5 /* StoreCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewController.swift; sourceTree = "<group>"; };
+		C1B933C9208B96310012DEF5 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		C1B933CB208B975F0012DEF5 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		C1B933CD208BB79E0012DEF5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B933AD208B84AE0012DEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B41D2029AEFF15F2CBA6B6 /* Pods_DiplomadoCollectionView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7E4DEAC2CACE18EA5C58702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F5A19E767A9BD0B50F4BFD9 /* Pods-DiplomadoCollectionView.debug.xcconfig */,
+				2E30ACF4F29BA8931E5B8760 /* Pods-DiplomadoCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1B933A7208B84AE0012DEF5 = {
+			isa = PBXGroup;
+			children = (
+				C1B933B2208B84AE0012DEF5 /* DiplomadoCollectionView */,
+				C1B933B1208B84AE0012DEF5 /* Products */,
+				B7E4DEAC2CACE18EA5C58702 /* Pods */,
+				DFB84114EE267D57B26156AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B933B1208B84AE0012DEF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B933B0208B84AE0012DEF5 /* DiplomadoCollectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B933B2208B84AE0012DEF5 /* DiplomadoCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C1B933B3208B84AE0012DEF5 /* AppDelegate.swift */,
+				C1B933B5208B84AE0012DEF5 /* ViewController.swift */,
+				C1B933B7208B84AE0012DEF5 /* Main.storyboard */,
+				C1B933BA208B84AF0012DEF5 /* Assets.xcassets */,
+				C1B933BC208B84AF0012DEF5 /* LaunchScreen.storyboard */,
+				C1B933BF208B84AF0012DEF5 /* Info.plist */,
+				C1B933C5208B8C2F0012DEF5 /* TestCollectionViewController.swift */,
+				C1B933C7208B91B40012DEF5 /* StoreCollectionViewController.swift */,
+				C1B933C9208B96310012DEF5 /* CategoryCell.swift */,
+				C1B933CB208B975F0012DEF5 /* AlbumCell.swift */,
+				C1B933CD208BB79E0012DEF5 /* Models.swift */,
+				C1B341552093A45D00319441 /* Tracks.swift */,
+			);
+			path = DiplomadoCollectionView;
+			sourceTree = "<group>";
+		};
+		DFB84114EE267D57B26156AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C3414584E9E35087775627 /* Pods_DiplomadoCollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B933AF208B84AE0012DEF5 /* DiplomadoCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B933C2208B84AF0012DEF5 /* Build configuration list for PBXNativeTarget "DiplomadoCollectionView" */;
+			buildPhases = (
+				89E157CFCAA6539011CF774F /* [CP] Check Pods Manifest.lock */,
+				C1B933AC208B84AE0012DEF5 /* Sources */,
+				C1B933AD208B84AE0012DEF5 /* Frameworks */,
+				C1B933AE208B84AE0012DEF5 /* Resources */,
+				666714875A1C121CA66EC116 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiplomadoCollectionView;
+			productName = DiplomadoCollectionView;
+			productReference = C1B933B0208B84AE0012DEF5 /* DiplomadoCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B933A8208B84AE0012DEF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = iosLab;
+				TargetAttributes = {
+					C1B933AF208B84AE0012DEF5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = C1B933AB208B84AE0012DEF5 /* Build configuration list for PBXProject "DiplomadoCollectionView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B933A7208B84AE0012DEF5;
+			productRefGroup = C1B933B1208B84AE0012DEF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B933AF208B84AE0012DEF5 /* DiplomadoCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B933AE208B84AE0012DEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B933BE208B84AF0012DEF5 /* LaunchScreen.storyboard in Resources */,
+				C1B933BB208B84AF0012DEF5 /* Assets.xcassets in Resources */,
+				C1B933B9208B84AE0012DEF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		666714875A1C121CA66EC116 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DiplomadoCollectionView/Pods-DiplomadoCollectionView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiplomadoCollectionView/Pods-DiplomadoCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89E157CFCAA6539011CF774F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiplomadoCollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B933AC208B84AE0012DEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B933B6208B84AE0012DEF5 /* ViewController.swift in Sources */,
+				C1B933C6208B8C2F0012DEF5 /* TestCollectionViewController.swift in Sources */,
+				C1B933C8208B91B40012DEF5 /* StoreCollectionViewController.swift in Sources */,
+				C1B933B4208B84AE0012DEF5 /* AppDelegate.swift in Sources */,
+				C1B933CA208B96310012DEF5 /* CategoryCell.swift in Sources */,
+				C1B933CC208B975F0012DEF5 /* AlbumCell.swift in Sources */,
+				C1B933CE208BB79E0012DEF5 /* Models.swift in Sources */,
+				C1B341562093A45D00319441 /* Tracks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1B933B7208B84AE0012DEF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B933B8208B84AE0012DEF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1B933BC208B84AF0012DEF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B933BD208B84AF0012DEF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1B933C0208B84AF0012DEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1B933C1208B84AF0012DEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B933C3208B84AF0012DEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5A19E767A9BD0B50F4BFD9 /* Pods-DiplomadoCollectionView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28GWAF24BT;
+				INFOPLIST_FILE = DiplomadoCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioslab.DiplomadoCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1B933C4208B84AF0012DEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E30ACF4F29BA8931E5B8760 /* Pods-DiplomadoCollectionView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28GWAF24BT;
+				INFOPLIST_FILE = DiplomadoCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioslab.DiplomadoCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B933AB208B84AE0012DEF5 /* Build configuration list for PBXProject "DiplomadoCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B933C0208B84AF0012DEF5 /* Debug */,
+				C1B933C1208B84AF0012DEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B933C2208B84AF0012DEF5 /* Build configuration list for PBXNativeTarget "DiplomadoCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B933C3208B84AF0012DEF5 /* Debug */,
+				C1B933C4208B84AF0012DEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B933A8208B84AE0012DEF5 /* Project object */;
+}
