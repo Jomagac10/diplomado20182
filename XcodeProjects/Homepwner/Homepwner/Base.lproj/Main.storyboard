@@ -91,7 +91,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="EJo-5z-vp8">
-                                <rect key="frame" x="16" y="72" width="343" height="587"/>
+                                <rect key="frame" x="16" y="72" width="343" height="543"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mKp-mu-70o">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="30"/>
@@ -154,25 +154,44 @@
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Date created" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuM-gn-j7J">
-                                        <rect key="frame" x="0.0" y="114" width="343" height="473"/>
+                                        <rect key="frame" x="0.0" y="114" width="343" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="248" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="Vg0-xQ-PlJ">
+                                        <rect key="frame" x="0.0" y="142.5" width="343" height="400.5"/>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="ufd-Sa-rJq" firstAttribute="leading" secondItem="Lc8-Aj-wpk" secondAttribute="leading" id="Of0-KF-BdN"/>
                                     <constraint firstItem="9T4-aD-ygU" firstAttribute="leading" secondItem="ufd-Sa-rJq" secondAttribute="leading" id="dph-MY-kMz"/>
                                 </constraints>
                             </stackView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Px7-W4-uRq">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9Fu-eL-Mf1"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem systemItem="camera" id="ixo-j9-N2r">
+                                        <connections>
+                                            <action selector="takePicture:" destination="FmR-gD-PmF" id="oxJ-Mv-BQC"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="adt-CW-jBh" firstAttribute="bottom" secondItem="EJo-5z-vp8" secondAttribute="bottom" constant="8" id="7bg-Tp-Xme"/>
+                            <constraint firstItem="Px7-W4-uRq" firstAttribute="leading" secondItem="adt-CW-jBh" secondAttribute="leading" id="2J2-f7-KZ8"/>
                             <constraint firstItem="EJo-5z-vp8" firstAttribute="top" secondItem="adt-CW-jBh" secondAttribute="top" constant="8" id="eSY-8U-mHR"/>
                             <constraint firstItem="adt-CW-jBh" firstAttribute="trailing" secondItem="EJo-5z-vp8" secondAttribute="trailing" constant="16" id="gL6-3S-Xhe"/>
                             <constraint firstItem="EJo-5z-vp8" firstAttribute="leading" secondItem="adt-CW-jBh" secondAttribute="leading" constant="16" id="gnM-EV-gzz"/>
+                            <constraint firstItem="Px7-W4-uRq" firstAttribute="top" secondItem="EJo-5z-vp8" secondAttribute="bottom" constant="8" id="muK-Zj-Zpn"/>
+                            <constraint firstItem="Px7-W4-uRq" firstAttribute="bottom" secondItem="adt-CW-jBh" secondAttribute="bottom" id="pdm-8X-teM"/>
+                            <constraint firstItem="Px7-W4-uRq" firstAttribute="trailing" secondItem="adt-CW-jBh" secondAttribute="trailing" id="xGR-7e-pXA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="adt-CW-jBh"/>
                         <connections>
@@ -181,6 +200,7 @@
                     </view>
                     <connections>
                         <outlet property="dateLabel" destination="OuM-gn-j7J" id="3QH-z4-DlG"/>
+                        <outlet property="imageView" destination="Vg0-xQ-PlJ" id="WuV-X1-7Pl"/>
                         <outlet property="nameField" destination="9T4-aD-ygU" id="pEN-NH-ZBS"/>
                         <outlet property="serialNumberField" destination="ufd-Sa-rJq" id="nKi-pk-jUd"/>
                         <outlet property="valueField" destination="Lc8-Aj-wpk" id="2sl-cp-QAx"/>

@@ -17,6 +17,7 @@
 		DD861D2220C65DC5004C0B32 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD861D2120C65DC5004C0B32 /* Item.swift */; };
 		DD861D2420C66950004C0B32 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD861D2320C66950004C0B32 /* ItemStore.swift */; };
 		DD9D2A0820CCB6B700A27796 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9D2A0720CCB6B700A27796 /* DetailViewController.swift */; };
+		DDBDD0B120E20BEA007B662D /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDD0B020E20BEA007B662D /* ImageStore.swift */; };
 		DDC8791D20CA505D00DB4826 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8791C20CA505D00DB4826 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		DD861D2120C65DC5004C0B32 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		DD861D2320C66950004C0B32 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		DD9D2A0720CCB6B700A27796 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DDBDD0B020E20BEA007B662D /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		DDC8791C20CA505D00DB4826 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 				DD861D2320C66950004C0B32 /* ItemStore.swift */,
 				DDC8791C20CA505D00DB4826 /* ItemCell.swift */,
 				DD9D2A0720CCB6B700A27796 /* DetailViewController.swift */,
+				DDBDD0B020E20BEA007B662D /* ImageStore.swift */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				DD861D2420C66950004C0B32 /* ItemStore.swift in Sources */,
 				DD9D2A0820CCB6B700A27796 /* DetailViewController.swift in Sources */,
 				DD861CF220C657B7004C0B32 /* AppDelegate.swift in Sources */,
+				DDBDD0B120E20BEA007B662D /* ImageStore.swift in Sources */,
 				DDC8791D20CA505D00DB4826 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
